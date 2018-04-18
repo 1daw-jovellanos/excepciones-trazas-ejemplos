@@ -18,7 +18,7 @@ public class Ex05 {
         PrintWriter p = new PrintWriter(new FileWriter("prueba.txt"));
         p.println(s);
         p.close();
-        return s.length() / (new java.util.Random().nextInt(100) + 11);
+        return s.length() /  11;
     }
 
     // sin pistas
